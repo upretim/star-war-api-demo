@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {getData} from '../server/Server';
 import PlanetCard from './../card/Card';
 
-//https://www.digitalocean.com/community/tutorials/how-to-call-web-apis-with-the-useeffect-hook-in-react
-
 export default function Search() {
   const [planetdata, setPlanetdata] = useState([]);
   const [searchString, setSearchString] = useState([]);

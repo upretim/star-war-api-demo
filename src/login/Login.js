@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import './Login.css';
 
 async function loginUser(credentials) {
- return fetch('https://swapi.dev/api/planets/1/', {
+  const URL ="https://swapi.dev/api/planets/1/"
+ return fetch(URL, {
    method: 'GET',
    headers: {
      'Content-Type': 'application/json'
